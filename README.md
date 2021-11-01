@@ -2,12 +2,12 @@
 
 This is a store designed to simplify API compunication. 
 
-## How it works?
+# How it works?
 
 This module creates a new module for a vuex store. This module will contain an object with fields for each end-point, an action to fetch at a specific end-point and
 a getter to access the data.
 
-## How to use?
+# How to use?
 
 To get started call the `createStore()` method. This method can receive an object that contains custom actions, mutations and getters you may want to create.
 
@@ -63,7 +63,7 @@ addGetRoute({
 });
 ```
 
-## Using an action
+# Using an action
 
 Actions are created with the following name structure call method (get, post, etc.) + resourceName + 'Action'. So for a get request with the resource name `magicData` the action name is `getMagicDataAction`. This function is always async. After the function is called you can get the data from the fetch using one of the following getters.
 
